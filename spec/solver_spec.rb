@@ -29,22 +29,21 @@ describe Solver do
       expect(solver.reverse('hello')).to eq 'olleh'
     end
   end
+
   describe '#fizzbuzz' do
-    it 'returns fizzbuzz when given 15' do
-      solver = Solver.new
+    solver = Solver.new
+    it 'returns fizzbuzz when given a number divisible by both 3 and 5' do
       expect(solver.fizzbuzz(15)).to eq 'fizzbuzz'
     end
-    it 'returns fizz when given 3' do
-      solver = Solver.new
-      expect(solver.fizzbuzz(3)).to eq 'fizz'
+    it 'returns fizz when given a number divisible by 3' do
+      expect(solver.fizzbuzz(6)).to eq 'fizz'
     end
-    it 'returns buzz when given 5' do
-      solver = Solver.new
+    it 'returns buzz when given a number divisible by 5' do
       expect(solver.fizzbuzz(5)).to eq 'buzz'
     end
-    it 'returns 1 when given 1' do
-      solver = Solver.new
+    it 'returns the number as a string when given a number not divisible by 3 and 5' do
       expect(solver.fizzbuzz(1)).to eq '1'
     end
   end
+
 end
