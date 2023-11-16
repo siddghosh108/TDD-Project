@@ -78,7 +78,7 @@ Install this project with:
 - LinkedIn: [@siddhartha-ghosh-65902718](https://www.linkedin.com/in/siddhartha-ghosh-65902718)
 
 👤 **Ben**
-
+- GitHub: [@Goldinium](https://github.com/Goldinium)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
