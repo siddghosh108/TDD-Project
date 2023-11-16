@@ -45,5 +45,4 @@ describe Solver do
       expect(solver.fizzbuzz(1)).to eq '1'
     end
   end
-
 end
