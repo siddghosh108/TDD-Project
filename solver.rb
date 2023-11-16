@@ -13,3 +13,4 @@ class Solver
   def reverse(input_string)
     input_string.reverse
   end
+end
