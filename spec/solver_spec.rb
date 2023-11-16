@@ -29,4 +29,23 @@ describe Solver do
       expect(solver.reverse('hello')).to eq 'olleh'
     end
   end
+  describe '#fizzbuzz' do
+  it 'returns fizzbuzz when given 15' do
+    solver = Solver.new
+    expect(solver.fizzbuzz(15)).to eq 'fizzbuzz'
+  end
+  it 'returns fizz when given 3' do
+    solver = Solver.new
+    expect(solver.fizzbuzz(3)).to eq 'fizz'
+  end
+  it 'returns buzz when given 5' do
+    solver = Solver.new
+    expect(solver.fizzbuzz(5)).to eq 'buzz'
+  end
+  it 'returns 1 when given 1' do
+    solver = Solver.new
+    expect(solver.fizzbuzz(1)).to eq '1'
+  end
+end
+
 end
